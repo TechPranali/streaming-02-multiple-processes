@@ -239,3 +239,27 @@ When you get an error, read them carefully.
 
 - What error do you get?
 
+### Database Is Locked Error
+
+Do a web search on the sqlite3 'database is locked' error.
+
+- What do you learn?
+- Once a process fails, it crashes the main process and everything stops. 
+
+### Deadlock
+
+Deadlock is a special kind of locking issue where a process 
+is waiting on a resource or process, that is waiting also. 
+
+Rather than crashing, a system in deadlock may wait indefinitely, 
+with no process able to move forward and make progress.
+
+### Learn More
+
+Check out Wikipedia's article on deadlock and other sources to learn how to prevent and avoid locking issues in concurrent processes. 
+
+Python has pretty helpful error messages. 
+When you get an error, read them carefully. 
+
+- What error do you get?
+
